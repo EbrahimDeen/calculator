@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator - Deen</title>
+        <link rel="stylesheet" href="myStyle.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="calculator">
+
+            <input id="screen" type="text" class="calculator-screen"  />
+            
+            <div class="calculator-keys">
+              
+              <button id="add" type="button" class="operator" value="+" onclick="dispaly('+')">+</button>
+              <button id="sub" type="button" class="operator" value="-" onclick="dispaly('-')" >-</button>
+              <button id="mul" type="button" class="operator" value="*" onclick="dispaly('*')" >&times;</button>
+              <button id="divide" type="button" class="operator" value="/" onclick="dispaly('/')" >&divide;</button>
+          
+              <button id="7" type="button" value="7" onclick="dispaly('7')" >7</button>
+              <button id="8" type="button" value="8" onclick="dispaly('8')" >8</button>
+              <button id="9" type="button" value="9" onclick="dispaly('9')">9</button>
+          
+          
+              <button id="4" type="button" value="4" onclick="dispaly('4')" >4</button>
+              <button id="5" type="button" value="5" onclick="dispaly('5')" >5</button>
+              <button id="6" type="button" value="6" onclick="dispaly('6')" >6</button>
+          
+          
+              <button id="1" type="button" value="1" onclick="dispaly('1')">1</button>
+              <button id="2"type="button" value="2" onclick="dispaly('2')">2</button>
+              <button id="3" type="button" value="3"onclick="dispaly('3')">3</button>
+          
+          
+              <button id="0" type="button" value="0" onclick="dispaly('0')" >0</button>
+              <button id="decimalPoint" type="button" class="decimal" value="." onclick="dispaly('.')"  >.</button>
+              <button id="ClearSign"type="button" class="all-clear" value="all-clear" onclick="clearAll()" >AC</button>
+          
+              <button id="equalSign" type="button" class="equal-sign" value="="onclick="solve()">=</button>
+          
+            </div>
+          </div>
+    </body>
+</html>
